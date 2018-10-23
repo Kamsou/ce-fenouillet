@@ -80,6 +80,17 @@
     position: relative;
     left: 230px;
 }
+.annee {
+    font-family: 'Titillium Web', sans-serif;   
+} @media screen and (max-width: 1051px) {
+    .annee {
+        margin-top: 25%;
+    }
+}
+
+.question {
+    font-family: 'Titillium Web', sans-serif;
+}
 
 /*======================================================
                      Article 2
