@@ -40,6 +40,9 @@
 /*======================================================
                      Article 1
     ======================================================*/
+.pres-titre {
+  font-family: 'Titillium Web', sans-serif; }
+
 .hey1 h2 {
   font-family: 'Gruppo', cursive; }
 
@@ -67,3 +70,9 @@
   margin-top: 20px;
   position: relative;
   left: 230px; }
+
+/*======================================================
+                     Article 2
+    ======================================================*/
+.enseignant-titre {
+  font-family: 'Titillium Web', sans-serif; }
