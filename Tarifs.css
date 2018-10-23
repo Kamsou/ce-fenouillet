@@ -1,0 +1,29 @@
+.tarifs-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px; }
+
+.infos {
+  font-size: 20px; }
+
+.affiches-texte {
+  background-color: yellow;
+  font-style: italic; }
+
+.sinscrire {
+  font-family: 'Gruppo';
+  font-size: 40px;
+  font-weight: bold; }
+
+.liens-pdf {
+  text-decoration: none;
+  color: black; }
+
+.liens-pdf:hover {
+  text-decoration: none; }
+
+  .tarif-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}

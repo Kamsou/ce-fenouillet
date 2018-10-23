@@ -1,0 +1,34 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.uk-first-column {
+    text-align: center !important;
+}
+
+.contact {
+    font-family: 'Dokdo', cursive;
+}
+
+.titre-contact h3 {
+    font-family: 'Gruppo', cursive ;
+}
+
+.liens {
+    color: #4a69bd;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: #4a69bd;
+}
+
+.cont-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+
+
+
+
