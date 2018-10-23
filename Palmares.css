@@ -10,3 +10,25 @@
 .uk-section {
     padding-top: 0px !important;
 }
+
+@media screen and (max-width: 1051px) {
+    .chopta {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .rosalie {
+        margin-top: 30%;
+    }
+}
+
+.images-nb {
+    width: 100%;
+    height: auto;
+}
+.images-couleur {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
