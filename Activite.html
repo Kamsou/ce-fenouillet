@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
     <link rel="stylesheet" href="Activite.css">
     <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">
     
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />       
@@ -18,11 +21,11 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     
-    <title> Centre Equestre de Fenouillet </title>
+    <title> Centre Equestre de Fenouillet | Activités </title>
 </head>
 <body>
 <!-- Barre de navigation -->
-<nav id="navbar" class="">
+<nav id="navbar" class="header">
         <div class="nav-wrapper">
           <!-- Navbar Logo -->
           <div class="logo">
@@ -32,12 +35,12 @@
       
           <!-- Navbar Links -->
           <ul id="menu" class="menu">
-            <li><a href="#"> Présentation </a></li>
-            <li><a href="#"> Nos activités </a></li>
-            <li><a href="#"> Nos cours </a></li>
-            <li><a href="#"> Tarifs </a></li>
-            <li><a href="#"> Palmarès </a></li>
-            <li><a href="#"> Contact </a></li>
+            <li><a href="index.html"> Presentation </a></li>
+            <li><a href="Instal.html"> Installations </a></li>
+            <li><a href="Activite.html"> Nos activites </a></li>
+            <li><a href="Tarifs.html"> Tarifs </a></li>
+            <li><a href="Palmares.html"> Palmares </a></li>
+            <li><a href="Contact.html"> Contact </a></li>
           </ul>
         </div>
       </nav>
@@ -52,29 +55,170 @@
       
       <div class="overlay-menu">
         <ul id="menu">
-            <li><a href="#"> Présentation </a></li>
-            <li><a href="#"> Nos activités </a></li>
-            <li><a href="#"> Nos cours </a></li>
-            <li><a href="#"> Tarifs </a></li>
-            <li><a href="#"> Palmarès </a></li>
-            <li><a href="#"> Contact </a></li>
+            <li><a href="index.html"> Presentation </a></li>
+            <li><a href="Instal.html"> Installations </a></li>
+            <li><a href="Activite.html"> Nos activites </a></li>
+            <li><a href="Tarifs.html"> Tarifs </a></li>
+            <li><a href="Palmares.html"> Palmares </a></li>
+            <li><a href="Contact.html"> Contact </a></li>
           </ul>
       </div>
 
-      <!-- Boutons -->
+      <!-- Article -->
 
-        <div class="uk-panel uk-padding">   
-                <div class=" uk-padding uk-text-large uk-text-justify article1">
-                    <h1 style="text-align:center"> Cavalières, Cavaliers </h1>
-                    <p> Le Centre Équestre de Fenouillet, situé à 8 km de Toulouse, propose des activités d'équitation sur poneys et chevaux, pour les enfants, les adolescents et les adultes.
-        
-                        Parmi ces activités, des leçons d'équitation à partir de 4 ans (cavaliers débutants et confirmés),
-                        des stages, des promenades, des compétitions, du TREC, du horse-ball, des Pony-Games.
-                        Le tout dans un cadre verdoyant, près de lacs et de la Garonne.
-        
-                    </p>
-                </div>
+
+            <div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" 
+                    uk-parallax="bgy: -200" 
+                    style="background-image: url('img/test2.jpg');">
             </div>
+
+
+
+
+              <div class="uk-grid-divider uk-child-width-expand@s uk-padding-large" uk-grid>
+                  
+                  <div class="hey2" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" style="margin-top: 60px;">
+                      <img src="img/club.jpg">
+
+                      <h3 class="uk-heading-line uk-text-center activ" style="margin-bottom: -10px;"><span >> Stages </span></h3>
+                      <p>Les stages ont lieu en période de <b>vacances scolaires </b>
+                        <p>Pour de nombreux cavaliers, c'est avant tout le moyen de <b>progresser rapidement</b> afin de passer les examens
+                             fédéraux, les "Galops" (G1 à G7).
+                        Il est également possible, au cours des stages, de s'initier à d'autres activités : 
+                        faire de la <b>voltige</b>, jouer des matches de <b>horse-ball</b>, longer, travailler en main, etc.
+                        C'est aussi un grand moment de <b>convivialité</b> (ponygames, pique-nique, goûter...).
+                        Un stage peut se dérouler sur une semaine (du lundi au vendredi), mais également sur une journée ou 
+                        une demi-journée.</p>
+
+                        <p>Le cavalier monte à cheval au minimum 3 heures dans la journée : 1h 1/2 le matin mais aussi l'après-midi.
+                        Un stage comprend également des cours d'hippologie, des soins aux chevaux et du travail en main.</p>
+                        <div  class="stages">
+                            <h2 class="activ">Prochains Stages : Toussaint 2018</h2>
+                            <p><b>Du 22 au 26 octobre</p></b>
+                            <p><b>Du 29 octobre au 2 novembre</p></b>
+                            <img src="img/tarifs-stages.jpeg">
+                        </div>
+
+                       
+                  </div>
+                
+                <div class="hey1" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3 class="uk-heading-line uk-text-center activ" style="margin-bottom: -10px;"><span>> Activités </span></h3>
+                                      
+                                    <p>Le Poney Club propose des cours d'équitation à tous les niveaux, <b>aux enfants comme aux adultes.</b><br>
+                                    Les enfants et petits jockeys apprennent à se familiariser avec les poneys, à les seller et les panser (brossage). Ils montent en cours collectif dans le manège couvert ou peuvent partir en promenade.     <br>                    
+                                    Ils doivent avant tout communiquer avec l'animal, trouver leur équilibre, et par le jeu, prendre confiance avec leur compagnon.  <br>                                 
+                                    Les reprises ont lieu le <b>mercredi</b>, le <b>samedi</b> ou <b>en fin de journée (après l'école)</b>, mais également certaines matinées ou soirées pour les étudiants et adultes recherchant des horaires moins classiques. (Vous pouvez contacter Catherine pour un complément d'information sur les multiples créneaux possibles). <br>           
+                                    L'horaire de l'activité est défini au moment de l'inscription.  <br>                  
+                                    <p>Parallèlement aux leçons, il est possible de demander des <b>cours particuliers</b>.               
+                                    Le club accueille également les groupes de structures diverses comme <b>les centres aérés, les instituts médico-éducatifs ou les écoles.</b> Le minimum est de cinq personnes et le tarif est fonction du nombre de participants et de la fréquence des séances. Cet accueil est possible tous les jours de la semaine sauf le mercredi après-midi.               
+                                    
+                                    <p id="stages-link">Les leçons sont composées en 3 temps, il est donc demandé aux élèves d'arriver une vingtaine de minutes en avance pour profiter pleinement de l'heure de monte.</p>
+
+                                  <p>
+                                    <b>Cours d'équitation pour tous niveaux</b>
+
+                                       <p> - Petits jockeys à partir de 4 ans </p>
+                                       <p> - Débutants à partir de 6 ans </p>
+                                       <p> - Confirmés</p>
+                          
+                                    <b>Leçon en 3 temps :</b>
+                          
+                                    <p>- Un premier 1/4 d'heure (environ) pour préparer le cheval</p>
+                                    <p>- 1 heure de monte</p>
+                                    <p>- Un dernier 1/4 d'heure de soins</p>
+
+                                    <img src="img/love-horse.jpg" alt="" style="margin-top: 40px">
+      
+                  </div>
+                  
+          </div>
+
+
+                         <!--======================================================
+            F O O T E R
+======================================================*/-->
+
+
+    <!-- MDL footer Container -->
+    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center blue" uk-grid>
+        <div>
+            <div class="uk-padding"><img src="img/logotest.gif"></div>
+        </div>
+        <div>
+            <div class="uk-padding copy">
+                <h4>Centre Equestre de Fenouillet</h4>
+                <p> 19 route de Gagnac - 31150 Fenouillet </p>
+                <p class="conception"> 2018 - CE DE FENOUILLET - Conception: Dendea Production</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-padding">
+              <li>
+                <a href="https://www.facebook.com/centreequestredefenouillet/"><img src="img/fb.png"></a>
+                <p>Rejoignez-nous sur Facebook !</p>
+              </li>
+            </div>
+        </div>
+</div>
+
+
+
+
+<script>
+
+    // Navigation
+        // Responsive Toggle Navigation =============================================
+        let menuIcon = document.querySelector('.menuIcon');
+        let nav = document.querySelector('.overlay-menu');
+
+        menuIcon.addEventListener('click', () => {
+            if (nav.style.transform != 'translateX(0%)') {
+                nav.style.transform = 'translateX(0%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            } else { 
+                nav.style.transform = 'translateX(-100%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            }
+        });
+
+
+        // Toggle Menu Icon ========================================
+        let toggleIcon = document.querySelector('.menuIcon');
+
+        toggleIcon.addEventListener('click', () => {
+            if (toggleIcon.className != 'menuIcon toggle') {
+                toggleIcon.className += ' toggle';
+            } else {
+                toggleIcon.className = 'menuIcon';
+            }
+        });
+
+        // Forms ========================================
+        $( '.js-input' ).keyup(function() {
+            if( $(this).val() ) {
+                $(this).addClass('not-empty');
+            } else {
+                $(this).removeClass('not-empty');
+            }
+            });
+            // Header Scroll ========================================
+            $(function () {
+                $(window).scroll(function () {
+                if ($(window).scrollTop() >= 50) {
+                $('.header').css('background','#233872');
+                $('#navbar li a').css('color', 'white');
+                } else {
+                $('.header').css('background','transparent');
+                $('#navbar li a').css('color', 'Black');
+                }               
+                });
+            })
+
+
+</script>
+
+
     
 </body>
 </html>

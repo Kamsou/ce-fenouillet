@@ -1,4 +1,12 @@
-.article1 h1 {
-    font-family: 'Gruppo', cursive;
-    margin-top: 80px;
+.activ {
+    font-family: 'Titillium Web', sans-serif;
 }
+
+.stages {
+    text-align: center;
+}
+
+#navbar {
+    line-height: 25px !important;
+}
+
