@@ -1,258 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="Contact.css">
-        <link rel="stylesheet" href="Header.css">
-        <link rel="stylesheet" href="Footer.css">
-        <link rel="stylesheet" href="Forms.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="Footer.css" />
+    <link rel="stylesheet" href="Forms.css" />
 
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />       
-        <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">   
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet"> 
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gruppo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Chelsea+Market"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dokdo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:700"
+      rel="stylesheet"
+    />
 
-        <!-- Material Design Lite -->
-        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Material Design Lite -->
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-        <!-- UIkit JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Map Algolia -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css"
+    />
+    <script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
 
-        <!-- Map Algolia -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
-        <script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
-        
-        <title> Centre Equestre de Fenouillet | Contact </title>
-    </head>
-    <body>
+    <title>Centre Equestre de Fenouillet | Contact</title>
+  </head>
+  <body>
+    <!--
+      ======================================================
+                  H E A D E R
+      ======================================================*/
+    -->
+    <nav id="navbar" class="header">
+      <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+          <!-- Logo Placeholder for Inlustration -->
+          <a href="#"
+            ><i class="fas fa-chess-knight"></i> <img src="img/logotest.gif" />
+          </a>
+        </div>
 
- <!--======================================================
-            H E A D E R
-======================================================*/-->
-        <nav id="navbar" class="header">
-                <div class="nav-wrapper">
-                <!-- Navbar Logo -->
-                <div class="logo">
-                    <!-- Logo Placeholder for Inlustration -->
-                    <a href="#"><i class="fas fa-chess-knight"></i> <img src="img/logotest.gif"> </a>
-                </div>
-            
-                <!-- Navbar Links -->
-                <ul id="menu" class="menu">
-                        <li><a href="index.html"> Presentation </a></li>
-                        <li><a href="Instal.html"> Installations </a></li>
-                        <li><a href="Activite.html"> Nos activites </a></li>
-                        <li><a href="Tarifs.html"> Tarifs </a></li>
-                        <li><a href="Palmares.html"> Palmares </a></li>
-                        <li><a href="Contact.html"> Contact </a></li>
-                </ul>
-                </div>
-            </nav>
-            
-            
-            <!-- Menu Icon -->
-            <div class="menuIcon">
-                <span class="icon icon-bars"></span>
-                <span class="icon icon-bars overlay"></span>
-            </div>
-            
-            
-            <div class="overlay-menu">
-                <ul id="menu">
-                        <li><a href="index.html"> Présentation </a></li>
-                        <li><a href="Instal.html"> Installations </a></li>
-                        <li><a href="Activite.html"> Nos activités </a></li>
-                        <li><a href="Tarifs.html"> Tarifs </a></li>
-                        <li><a href="Palmares.html"> Palmarès </a></li>
-                        <li><a href="Contact.html"> Contact </a></li>
-                </ul>
-            </div>
-               <!--======================================================
-            P A R A L L A X  I M A G E
-======================================================*/-->
-                    
+        <!-- Navbar Links -->
+        <ul id="menu" class="menu">
+          <li><a href="index.html"> Presentation </a></li>
+          <li><a href="Instal.html"> Installations </a></li>
+          <li><a href="Activite.html"> Nos activites </a></li>
+          <li><a href="Tarifs.html"> Tarifs </a></li>
+          <li><a href="Palmares.html"> Palmares </a></li>
+          <li><a href="Contact.html"> Contact </a></li>
+        </ul>
+      </div>
+    </nav>
 
-            <div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" 
-                    uk-parallax="bgy: -200" 
-                    style="background-image: url('img/test2.jpg');">
-            </div>
-
-
-                    <!-- ====================================================== 
-            I N F O S  P R A T I Q U E S
-======================================================*/-->
-<div>
-        <h1 class="uk-heading-line uk-text-center cont-title" style="font-size: 30px">
-            <span>
-                > Contact
-            </span>
-        </h1>
+    <!-- Menu Icon -->
+    <div class="menuIcon">
+      <span class="icon icon-bars"></span>
+      <span class="icon icon-bars overlay"></span>
     </div>
-                    
 
-            <div class="uk-grid-divider uk-child-width-expand@s uk-padding-large" uk-grid>
-                    <div class="titre-contact">
-                            <h3> Horaires du secrétariat </h3>
+    <div class="overlay-menu">
+      <ul id="menu">
+        <li><a href="index.html"> Présentation </a></li>
+        <li><a href="Instal.html"> Installations </a></li>
+        <li><a href="Activite.html"> Nos activités </a></li>
+        <li><a href="Tarifs.html"> Tarifs </a></li>
+        <li><a href="Palmares.html"> Palmarès </a></li>
+        <li><a href="Contact.html"> Contact </a></li>
+      </ul>
+    </div>
+    <!--
+      ======================================================
+                  P A R A L L A X  I M A G E
+      ======================================================*/
+    -->
 
-                            <ul class="uk-list uk-list-striped">
-                                    <li>Lundi  18:00 - 20:00</li>
-                                    <li>Mardi  08:00 - 20:00</li>
-                                    <li>Mercredi  09:00 - 20:00</li>
-                                    <li>Jeudi  08:00 - 20:00</li>
-                                    <li>Vendredi  08:00 - 20:00</li>
-                                    <li>Samedi  08:00 - 20:00</li>
-                                    <li>Dimanche  09:00 - 17:00</li>
+    <div
+      class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top"
+      uk-parallax="bgy: -200"
+      style="background-image: url('img/test2.jpg');"
+    ></div>
 
-                                </ul>
-                            <p>Rendez-vous dans dans l'écurie centrale, après la pancarte « Centre Equestre de Fenouillet »</p>
-                            </div>
-                    <div style="text-align: center;" class="titre-contact">
-                            <h3>Coordonnées</h3>                          
-                            <p>Centre Equestre de Fenouillet</p>                            
-                            <p>19 Route de Gagnac 31150 Fenouillet</p>                           
-                            <p> 06 09 38 35 19</p>
-                            <p class="liens"> poney.fenouillet31@free.fr</p>                           
-                            <p class="liens"> www.poneyclubfenouillet.fr/</p>
-                            </div>
-                    <div class="titre-contact" style="text-align: center;">
-                            <h3>Plan d’accès</h3>
-                            
-                            <p>Le Poney Club Fenouillet se situe à Fenouillet en Haute-Garonne (31)</p>
-                            <p>De Toulouse, prendre la N20 (sortie Fenouillet), traverser le village (direction Gagnac-sur-Garonne).
-                            Le centre équestre est situé à 1km environ à gauche, après la sortie du village.</p>
-                            
-                            <p>Bus 59 – Metro La Vache - Direction Fenouillet Croix, Gagnac Acacias ou Lespinasse Viguerie - Sortir à l'arret Montplaisir </p>
-                            </div>
+    <!--
+      ======================================================
+                  I N F O S  P R A T I Q U E S
+      ======================================================*/
+    -->
+    <div>
+      <h1
+        class="uk-heading-line uk-text-center cont-title"
+        style="font-size: 30px"
+      >
+        <span> > Contact </span>
+      </h1>
+    </div>
+
+    <div
+      class="uk-grid-divider uk-child-width-expand@s uk-padding-large"
+      uk-grid
+    >
+      <div class="titre-contact">
+        <h3>Horaires du secrétariat</h3>
+
+        <ul class="uk-list uk-list-striped">
+          <li>Lundi 18:00 - 20:00</li>
+          <li>Mardi 08:00 - 20:00</li>
+          <li>Mercredi 09:00 - 20:00</li>
+          <li>Jeudi 08:00 - 20:00</li>
+          <li>Vendredi 08:00 - 20:00</li>
+          <li>Samedi 08:00 - 20:00</li>
+          <li>Dimanche 09:00 - 17:00</li>
+        </ul>
+        <p>
+          Rendez-vous dans dans l'écurie centrale, après la pancarte « Centre
+          Equestre de Fenouillet »
+        </p>
+      </div>
+      <div style="text-align: center;" class="titre-contact">
+        <h3>Coordonnées</h3>
+        <p>Centre Equestre de Fenouillet</p>
+        <p>19 Route de Gagnac 31150 Fenouillet</p>
+        <p>06 09 38 35 19</p>
+        <p class="liens">poney.fenouillet31@free.fr</p>
+        <p class="liens">www.poneyclubfenouillet.fr/</p>
+      </div>
+      <div class="titre-contact" style="text-align: center;">
+        <h3>Plan d’accès</h3>
+
+        <p>
+          Le Poney Club Fenouillet se situe à Fenouillet en Haute-Garonne (31)
+        </p>
+        <p>
+          De Toulouse, prendre la N20 (sortie Fenouillet), traverser le village
+          (direction Gagnac-sur-Garonne). Le centre équestre est situé à 1km
+          environ à gauche, après la sortie du village.
+        </p>
+
+        <p>
+          Bus 59 – Metro La Vache - Direction Fenouillet Croix, Gagnac Acacias
+          ou Lespinasse Viguerie - Sortir à l'arret Montplaisir
+        </p>
+      </div>
+    </div>
+
+    <!--
+      ======================================================
+                  F O R M
+      ======================================================*/
+    -->
+
+    <!--
+      <section>
+          <div id="contact">
+                <p class="contact-style"> CONTACT </p>
+                <a href="mailto:poney.club31@free.fr">
+                  <p class="contact-mail"> Poney.fenouillet31@free.fr </p>
+                </a>
+          </div>
+      </section>
+    -->
+
+    <!--
+      <section class="get-in-touch">
+         <h1 class="title_contact">Contacte-nous!</h1>
+         <form
+         class="contact-form row"
+         id="gform"
+         method="POST"
+         data-email="coutcout94@gmail.com"
+         action="https://script.google.com/macros/s/AKfycbxVuv9Nlw1ldGOc131d1y6NpuoLHMtYndXctlbcew/exec"
+         onsubmit="target_popup(this)">
+            <div class="form-field col x-50">
+               <input id="name" name="name" class="input-text js-input" type="text" required>
+               <label class="label" for="name">Nom</label>
             </div>
-
-            
-
-<!--======================================================
-            F O R M
-======================================================*/-->
-<hr class="uk-divider-icon">      
-            <section class="get-in-touch">
-                    <h1 class="title">Contacte-nous!</h1>
-                    <form class="contact-form row">
-                        <div class="form-field col x-50">
-                            <input id="name" class="input-text js-input" type="text" required>
-                            <label class="label" for="name">Nom</label>
-                        </div>
-                        <div class="form-field col x-50">
-                            <input id="email" class="input-text js-input" type="email" required>
-                            <label class="label" for="email">E-mail</label>
-                        </div>
-                        <div class="form-field col x-100">
-                            <input id="message" class="input-text js-input" type="text" required>
-                            <label class="label" for="message">Message</label>
-                        </div>
-                        <div class="form-field col x-100 align-center">
-                            <input class="submit-btn" type="submit" value="Envoyer">
-                        </div>
-                        </form>
-                    </section>
-                </div>
-
-
-
-
-
-                <!--======================================================
-            M A P
-======================================================*/-->
-            <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.404113874902!2d1.3746227381666012!3d43.68932026067489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7e71c18f6ebf501!2sCentre+Equestre+de+Fenouillet!5e0!3m2!1sfr!2sfr!4v1540052460440" 
-                    width="400" 
-                    height="450" 
-                    frameborder="0" 
-                    style="border:0" 
-                    allowfullscreen>
-                    </iframe>
+            <div class="form-field col x-50">
+               <input id="email" name="email" class="input-text js-input" type="email" required>
+               <label class="label" for="email">E-mail</label>
             </div>
+            <div class="form-field col x-100">
+               <input id="message" name="message" for="message" class="input-text js-input" type="text" required>
+               <label class="label" for="message">Message</label>
+            </div>
+            <div class="form-field col x-100 align-center">
+               <input class="submit-btn button" type="submit" value="Envoyer">
+            </div>
+         </form>
+    -->
 
+    <div class="contactLink">
+      <h2
+        class="uk-heading-line uk-text-center cont-title"
+        style="font-size: 30px"
+      >
+        <span> Contactez nous ! </span>
+      </h2>
 
-                <!--======================================================
-            F O O T E R
-======================================================*/-->
+      <a href="mailto:poney.fenouillet31@free.fr">
+        <p class="linkMail">poney.fenouillet31@free.fr</p>
+      </a>
+    </div>
 
+    <!--
+      <div class="form">
+        <form
+          id="gform"
+          method="POST"
+          class="pure-form pure-form-stacked gform"
+          data-email="coutcout94@gmail.com"
+          action="https://script.google.com/macros/s/AKfycbxVuv9Nlw1ldGOc131d1y6NpuoLHMtYndXctlbcew/exec"
+        >
+          <label for="name">Name: </label>
+          <input id="name" name="name" placeholder="Nom" value="" />
+
+          <br />
+
+          <label for="email">E-mail</label>
+          <input
+            id="email"
+            name="email"
+            value=""
+            required
+            placeholder="E-mail"
+          />
+
+          <br />
+
+          <label for="message">Message: </label>
+          <input
+            id="message"
+            name="message"
+            type="text"
+            placeholder="Message"
+          ></input>
+          <br/>
+          <button onclick="sweetalert()">
+            <i class="fa fa-paper-plane"></i>&nbsp;Envoyer
+          </button>
+        </form>
+      </div>
+    -->
+
+    <!--
+                      ======================================================
+                  M A P
+      ======================================================*/
+    -->
+
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.404113874902!2d1.3746227381666012!3d43.68932026067489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7e71c18f6ebf501!2sCentre+Equestre+de+Fenouillet!5e0!3m2!1sfr!2sfr!4v1540052460440"
+        width="400"
+        height="450"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+
+    <!--
+      ======================================================
+                  F O O T E R
+      ======================================================*/
+    -->
 
     <!-- MDL footer Container -->
-    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center blue" uk-grid>
-            <div>
-                <div class="uk-padding"><img src="img/logotest.gif"></div>
-            </div>
-            <div>
-                <div class="uk-padding copy">
-                    <h4>Centre Equestre de Fenouillet</h4>
-                    <p> 19 route de Gagnac - 31150 Fenouillet </p>
-                    <p class="conception"> 2018 - CE DE FENOUILLET - Conception: Dendea Production</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-padding"><a href="https://www.facebook.com/centreequestredefenouillet/"><img src="img/fb.png"></a></div>
-            </div>
+    <div
+      class="uk-grid-collapse uk-child-width-expand@s uk-text-center blue"
+      uk-grid
+    >
+      <div>
+        <div class="uk-padding"><img src="img/logotest.gif" /></div>
+      </div>
+      <div>
+        <div class="uk-padding copy">
+          <h4>Centre Equestre de Fenouillet</h4>
+          <p>19 route de Gagnac - 31150 Fenouillet</p>
+          <p class="conception">
+            2018 - CE DE FENOUILLET - Conception: Dendea Production
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="uk-padding">
+          <a href="https://www.facebook.com/centreequestredefenouillet/"
+            ><img src="img/fb.png"
+          /></a>
+        </div>
+      </div>
     </div>
 
+    <script>
+      // Navigation
+      // Responsive Toggle Navigation =============================================
+      let menuIcon = document.querySelector(".menuIcon");
+      let nav = document.querySelector(".overlay-menu");
 
-            <script>
+      menuIcon.addEventListener("click", () => {
+        if (nav.style.transform != "translateX(0%)") {
+          nav.style.transform = "translateX(0%)";
+          nav.style.transition = "transform 0.2s ease-out";
+        } else {
+          nav.style.transform = "translateX(-100%)";
+          nav.style.transition = "transform 0.2s ease-out";
+        }
+      });
 
-            // Navigation
-                // Responsive Toggle Navigation =============================================
-                let menuIcon = document.querySelector('.menuIcon');
-                let nav = document.querySelector('.overlay-menu');
-    
-                menuIcon.addEventListener('click', () => {
-                    if (nav.style.transform != 'translateX(0%)') {
-                        nav.style.transform = 'translateX(0%)';
-                        nav.style.transition = 'transform 0.2s ease-out';
-                    } else { 
-                        nav.style.transform = 'translateX(-100%)';
-                        nav.style.transition = 'transform 0.2s ease-out';
-                    }
-                });
-    
-    
-                // Toggle Menu Icon ========================================
-                let toggleIcon = document.querySelector('.menuIcon');
-    
-                toggleIcon.addEventListener('click', () => {
-                    if (toggleIcon.className != 'menuIcon toggle') {
-                        toggleIcon.className += ' toggle';
-                    } else {
-                        toggleIcon.className = 'menuIcon';
-                    }
-                });
+      // Toggle Menu Icon ========================================
+      let toggleIcon = document.querySelector(".menuIcon");
 
-                // Forms ========================================
-                $( '.js-input' ).keyup(function() {
-                    if( $(this).val() ) {
-                        $(this).addClass('not-empty');
-                    } else {
-                        $(this).removeClass('not-empty');
-                    }
-                    });
-                
-                // Header Scroll ========================================
-            $(function () {
-                $(window).scroll(function () {
-                if ($(window).scrollTop() >= 50) {
-                $('.header').css('background','#233872');
-                $('#navbar li a').css('color', 'white');
-                } else {
-                $('.header').css('background','transparent');
-                $('#navbar li a').css('color', 'Black');
-                }               
-                });
-            })
+      toggleIcon.addEventListener("click", () => {
+        if (toggleIcon.className != "menuIcon toggle") {
+          toggleIcon.className += " toggle";
+        } else {
+          toggleIcon.className = "menuIcon";
+        }
+      });
 
+      // Forms ========================================
+      $(".js-input").keyup(function() {
+        if ($(this).val()) {
+          $(this).addClass("not-empty");
+        } else {
+          $(this).removeClass("not-empty");
+        }
+      });
+
+      // Header Scroll ========================================
+      $(function() {
+        $(window).scroll(function() {
+          if ($(window).scrollTop() >= 50) {
+            $(".header").css("background", "#233872");
+            $("#navbar li a").css("color", "white");
+          } else {
+            $(".header").css("background", "transparent");
+            $("#navbar li a").css("color", "Black");
+          }
+        });
+      });
+
+      function target_popup(form) {
+        window.open(
+          "",
+          "formpopup",
+          "width=400,height=400,resizeable,scrollbars"
+        );
+        form.target = "formpopup";
+      }
     </script>
-</body>
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"
+    ></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+      const sweetalert = () => {
+        swal("Message envoyé!", "", "success");
+      };
+    </script>
+  </body>
 </html>

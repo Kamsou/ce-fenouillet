@@ -1,5 +1,6 @@
 .activ {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
 }
 
 .stages {
@@ -10,3 +11,10 @@
     line-height: 25px !important;
 }
 
+.form {
+    font-size: 2em;
+    font-weight: bold;
+}
+.red-formation {
+    color: red;
+}
