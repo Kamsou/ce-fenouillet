@@ -53,6 +53,19 @@
 /* 
 .form {
   text-align: center;
+    font-size: 25vh;
+    text-align: center;
+    margin-top: 5%;
+}
+.contact-mail {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+#contact a {
+    text-decoration: none;
+    color:#4a69bd;
 }
 
 input {
