@@ -1,20 +1,26 @@
 .activ {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 3em;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 3em;
 }
 
 .stages {
-    text-align: center;
+  text-align: center;
 }
 
 #navbar {
-    line-height: 25px !important;
+  line-height: 25px !important;
 }
 
 .form {
-    font-size: 2em;
-    font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
 .red-formation {
-    color: red;
+  color: red;
+}
+
+.img-forma {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
