@@ -12,12 +12,16 @@ html body {
                           Navbar
   ======================================================*/
 #navbar {
-  background-color: transparent;
   position: fixed;
   top: 0;
   height: 90px;
   line-height: 60px;
   width: 130vw;
+}
+@media (max-width: 768px) {
+  #navbar {
+    background-color: transparent !important;
+  }
 }
 
 .logo {
@@ -25,6 +29,12 @@ html body {
   height: 61px;
   margin-left: 40px;
   margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 49px;
+    height: 51px;
+  }
 }
 
 .menu {
@@ -59,8 +69,6 @@ html body {
   font-size: 1.5em;
   height: 60px;
   text-transform: uppercase;
-}
-@media (max-width: 768px) {
 }
 
 #navbar ul {
@@ -210,8 +218,8 @@ html body {
 
   /* Bars Shadows */
   .icon-bars.overlay {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
+    background: black;
+    background: black;
     width: 20px;
     animation: middleBar 3s infinite 0.5s;
     -webkit-animation: middleBar 3s infinite 0.5s;
@@ -240,8 +248,8 @@ html body {
   }
 
   .icon-bars.overlay::before {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
+    background: black;
+    background: black;
     width: 10px;
     animation: topBar 3s infinite 0.2s;
     -webkit-animation: topBar 3s infinite 0s;
@@ -270,8 +278,8 @@ html body {
   }
 
   .icon-bars.overlay::after {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
+    background: black;
+    background: black;
     width: 15px;
     animation: bottomBar 3s infinite 1s;
     -webkit-animation: bottomBar 3s infinite 1s;
