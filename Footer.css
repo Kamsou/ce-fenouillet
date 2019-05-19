@@ -11,8 +11,8 @@
 }
 
 .mdl-mega-footer__link-list li a img {
-  width: 82px;
-  height: 82px;
+  width: 42px;
+  height: 42px;
 }
 
 .blue {
@@ -29,7 +29,8 @@
 }
 
 .conception {
-  font-size: 12px;
+  font-size: 9px;
+  font-style: italic;
   color: white;
   font-family: "Titillium Web", sans-serif;
 }
@@ -37,7 +38,6 @@
 .copy {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .white {

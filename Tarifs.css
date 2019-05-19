@@ -5,6 +5,10 @@
   line-height: 30px;
 }
 
+.center {
+  text-align: center;
+}
+
 .link_reglement {
   list-style: none;
   text-decoration: underline;
@@ -52,4 +56,10 @@
 .t-annee {
   text-align: center;
   padding: 150px 0;
+}
+@media screen and (max-width: 640px) {
+  .t-annee {
+    text-align: center;
+    padding: 50px 0;
+  }
 }
