@@ -1,34 +1,33 @@
+.img_palmares {
+  width: 100%;
+  height: 300px;
+}
+
 .titre-article h3 {
-    font-family: 'Gruppo';
+  font-family: "Gruppo";
 }
 
 .palm-title {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
 }
 
 .uk-section {
-    padding-top: 0px !important;
+  padding-top: 0px !important;
 }
 
 @media screen and (max-width: 1051px) {
-    .chopta {
-        margin-top: 30%;
-    }
+  .chopta {
+    margin-top: 30%;
+  }
+  .img_palmares {
+    width: 100% !important;
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 1051px) {
-    .rosalie {
-        margin-top: 30%;
-    }
-}
-
-.images-nb {
-    width: 100%;
-    height: auto;
-}
-.images-couleur {
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
+  .rosalie {
+    margin-top: 30%;
+  }
 }

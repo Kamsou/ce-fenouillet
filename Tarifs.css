@@ -2,28 +2,54 @@
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
-  line-height: 30px; }
+  line-height: 30px;
+}
+
+.link_reglement {
+  list-style: none;
+  text-decoration: underline;
+  font-style: italic;
+}
 
 .infos {
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 50px;
+}
 
 .affiches-texte {
   background-color: yellow;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .sinscrire {
-  font-family: 'Gruppo';
+  font-family: "Gruppo";
   font-size: 40px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .liens-pdf {
   text-decoration: none;
-  color: black; }
+  color: black;
+}
 
 .liens-pdf:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-  .tarif-title {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 40px;
+.tarif-title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+}
+
+.tarifs-2018-img {
+  height: 600px;
+}
+
+.t-compet {
+  height: 600px;
+}
+
+.t-annee {
+  text-align: center;
+  padding: 150px 0;
 }
