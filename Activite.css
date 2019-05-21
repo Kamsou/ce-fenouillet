@@ -25,3 +25,8 @@
   margin-right: auto;
   height: 500px;
 }
+@media screen and (max-width: 640px) {
+  .img-forma {
+    height: auto;
+  }
+}
