@@ -29,6 +29,10 @@
     font-size: 40px;
 } */
 
+.bigTitleContact {
+  font-family: "Titillium Web", sans-serif;
+}
+
 .contact-style {
   font-size: 25vh;
   text-align: center;
