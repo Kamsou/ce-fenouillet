@@ -6,6 +6,8 @@ html body {
 .photo-1 {
   background-image: url("img/test2.jpg");
   background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 /*======================================================
