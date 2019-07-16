@@ -23,7 +23,8 @@
 .gros-titre h1 {
   font-size: 90px;
   color: #3656af;
-  font-family: "Sedgwick Ave Display", cursive;
+  /* font-family: "Sedgwick Ave Display", cursive; */
+  font-family: "Barriecito", cursive;
   font-weight: bold;
   position: absolute;
   bottom: 50px;
@@ -48,6 +49,9 @@
 
 @media screen and (max-width: 1051px) {
   .gros-titre h1 {
+    display: none;
+  }
+  .gros-titre .ambiance {
     display: none;
   }
 }
