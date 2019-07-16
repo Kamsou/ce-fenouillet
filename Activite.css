@@ -3,10 +3,19 @@
   font-size: 3em;
 }
 
+.container_buttons {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .stages {
   text-align: center;
 }
 
+.stages_top {
+  text-align: center;
+  margin-top: 60px;
+}
 #navbar {
   line-height: 25px !important;
 }

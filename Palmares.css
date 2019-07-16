@@ -16,6 +16,10 @@
   padding-top: 0px !important;
 }
 
+.m-top-50 {
+  margin-top: 50px !important;
+}
+
 @media screen and (max-width: 1051px) {
   .chopta {
     margin-top: 30%;
